@@ -64,8 +64,11 @@ footer {
     margin-bottom: 10px;
     border: 1px solid rgb(252, 240, 240);
 }
+.check-table {
+    margin:auto ;
+}
 #form input[type="submit"]{
-    background-color: rgb(227, 191, 236);
+    background-color: rgb(158, 0, 0);
     padding: 10px 50px;
     width: 250px;
     height: 40px;
@@ -73,7 +76,7 @@ footer {
     border: 1px solid rgb(255, 223, 223);
 }
 #form input[type="submit"]:hover{
-    color:rgb(197, 29, 29);
+    color:rgb(255, 255, 255);
     text-decoration: underline;
 }
 #form{
