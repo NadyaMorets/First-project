@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <table class="check-table">
+        <caption>Счет-фактура</caption>
+        <thead>
+            <tr>
+                <th>наименование</th>
+                <th>цена</th>
+                <th>количество</th>
+                <th>№магазина</th>
+                <th>стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Бисер</td>
+                <td rowspan="2">25</td>
+                <td>2</td>
+                <td>1</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Нитки</td>
+                <td>1</td>
+                <td>12</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Крючки</td>
+                <td>50</td>
+                <td>2</td>
+                <td>1</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Стеклярус</td>
+                <td>50</td>
+                <td>2</td>
+                <td>3</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Рубка</td>
+                <td>25</td>
+                <td>2</td>
+                <td>2</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Пряжа</td>
+                <td>50</td>
+                <td>1</td>
+                <td>1</td>
+                <td>50</td>
+            </tr>
+            
+            <tr>
+                <td colspan="4">Итог</td>
+                <td>250</td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="form-form">
+        <label for="mail">Введите email</label><br>
+        <input id="mail" type="email" placeholder="Email" required><br>
+        <label for="pass">Введите пароль</label><br>
+        <input id="pass" type="password" placeholder="пароль" required><br>
+        <input type="radio" id="gender-male" name="gender" value="male" checked>
+        <label for="gender-male">муж</label>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">жен</label><br>
+        <input type="submit" value="Зарегистрироваться" >
+        <input type="reset">
+    </form>
+</body>
+</html>

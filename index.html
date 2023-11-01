@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Бисер и бисероплетение</title>
+    <style>
+        #about p{
+            color: rgb(0, 83, 14);
+        }
+        img {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Бисер и бисероплетение</h1>
+        <img src="img/twitter.svg" alt="логотип сайта" width="50px">
+        <nav>
+            <ul>
+                <li><a href="#about">Главная</a></li>
+                <li><a href="#articles">Статьи</a></li>
+                <li><a href="#form">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Главная</h2>
+            <a href="img/osnova.jpg" target="_blank">
+                <img src="img/osnova.jpg" alt="аватар автора" 
+                width="400px";>
+            </a>
+            <p lang="ru">Бисероплетение – популярнейший вид рукоделия, который переживал уже не один виток популярности. Сегодня это востребованное творчество, увлекающее детей и взрослых, людей с художественным образованием и тех, кто далек от декоративно-прикладного искусства.</p>
+            <p lang="ru">Этот уникальный материал на протяжении всей истории человечества являлся важным элементом культуры многих народов. Может быть поэтому у искусства бисероплетения такая долгая история, охватывающая целые тысячелетия и разные континенты.</p>
+            <p lang="en">Beadwork is one of the most popular types of needlework, an ancient and fairly widespread type of folk art. It developed in accordance with fashion trends, the creation of the beads themselves and progress in society. The development of new technologies was immediately reflected in the beads: new shapes, colors, and new finishes appeared.</p>
+        </section>
+        <section id="articles">
+            <h2>Статьи</h2>
+            <ol>
+                <li><a href="story.html">История бисероплетения</a></li>
+                <li><a href="materials.html">Инструменты и материалы</a></li>
+                <li><a href="machine.html">Станок</a></li>
+                <li><a href="technique.html">Техники бисероплетения</a></li>
+                <li class="new"><a href="listofterms.html">Список терминов</a></li>
+            </ol>
+        </section>
+    </main>
+    <section id="form">
+        <h2>Обратная связь</h2>
+        <form action="form-reg">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic" required>
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <div class="form_item">
+                <label for="name">Имя</label><br>
+                <input name="name" id="name" type="text" placeholder="Введите Имя" required>
+            </div>
+            <div class="form_item">
+                <label for="mail">E-mail</label><br>
+                <input id="mail" type="email" placeholder="Введите Email" required><br>
+            </div>
+            <div class="form_item">
+                <label for="date">Дата</label><br>
+                <input id="date" type="date" placeholder="Введите дату" required><br>
+            </div>
+            <div class="form_item">
+                <label for="tel">Телефон</label><br>
+                <input id="tel" type="email" placeholder="Введите телефон" required><br>
+            </div>
+            <div class="form_item">
+                <label for="textarea">
+                    Текст сообщения 
+                </label><br>
+                <textarea id="textarea" placeholder="Введите текст сообщения" required rows="5"></textarea>
+            </div>
+            <div class="form_item">
+                <label for="checkbox">Согласие с политикой конфиденциальности</label><br>
+                <input id="checkbox" type="checkbox" placeholder="checkbox" required><br>
+            </div>
+            <div class="form_item">
+                <input type="submit">
+            </div>
+    </section>
+    <footer>
+        <p>&copy; Морец Надежда, 2023 г.</p>
+        <p>Вы также можете найти меня <a target="_blank" href="https://midis.ru/">здесь</a></p>
+        <p id="fot">
+            <a href="https://www.twitch.tv/" target="_blank">
+                <img src="img/twitch.svg" alt="twitch" width="30px">
+            </a>
+            <a href="https://www.youtube.com/channel/UCuNsp32nCUA3faqcfrgABFQ" target="_blank">
+                <img src="img/youtube.svg" alt="youtube" width="30px">
+            </a>
+            <a href="https://vk.com/public217599332" target="_blank">
+                <img src="img/vk.svg" alt="vk" width="30px">
+            </a></p>
+    </footer>
+</body>
+</html>
